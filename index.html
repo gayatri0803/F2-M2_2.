@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Library Management Website </title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+     <h3>Library Management System</h3>
+       
+    <form action="#">
+       <div class="inputform">
+        <label id="bookname">Book Name</label>
+       <input type="text" name="book" id="book" >
+       </div>
+
+       <div class="inputform">
+        <label id="issuedto">Issued To</label>
+        <input type="text" name="issue" id="issue_book" >
+       </div>
+    
+        <button class="button" id="entry" type="button" onclick="addIssuedBook();">Issue Book</button><hr>
+        
+        <div >
+            <table  id="tbl" class="table">
+                <thead>
+                  
+                    <th >id</th>
+                    <th>Book Name</th>
+                    <th>Issued To</th>
+                    <th >Issue Date And Time</th>
+                    <th >Status</th>
+                   
+                </thead>
+                <tbody>
+                    <!DOCTYPE html>
+<html>
+  <head>
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+  <body>
+
+   <div id="container">
+    <div id="heading">
+        <h1>Library Management System</h1>
+    </div>
+    <form>
+        <div class="inputs">
+            <div class="inputs1">
+            <div id="input_book_name_lable">
+      <label for="bookName">Book Name:</label>
+ </div>
+ <div id="input_book_name">
+      <input type="text" id="book" name="bookName">
+    </div>
+</div>
+      <br>
+      <div class="inputs2">
+      <div id="input_user_name_lable">
+      <label for="issuedTo">Issued To:</label>
+    </div>
+    <div id="input_user_name">
+      <input type="text" id="issuedto" name="issuedTo">
+    </div>
+      <br>
+    </div>
+    </div>
+
+      <input type="button" id="issue_Books" value="Issue Book" onclick="issueBook()">
+
+    </form>
+    <br>
+    <table id="table">
+      <tr>
+        <th>ID</th>
+        <th>Book Name</th>
+        <th>Issued To</th>
+        <th>Issued Time</th>
+        <th>Status</th>
+      </tr>
+    </table>
+
+   </div>
+
+   <script src="./script.js"></script>
+  </body>
+  
+</html>
+                </tbody>
+            </table>
+        </div>
+    </form>
+
+    <script src="./script.js"></script>
+
+  </body>
+</html>
